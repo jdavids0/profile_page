@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* utility class */
+.grayborder{
+    border-top: 3px solid lightgray;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20%;
+    gap: 50px;
+    border: 1px pink solid;
+}
+
+#title {
+    color: white;
+}
+
+.active{
+    color: white;}
+
+.link-list{
+    display: flex;
+    gap: 20px;
+}
+
+#profile-links{
+    margin-right: 20%;
+}
+
+#sign-out{
+    /* position: absolute;
+    top: 6%;
+    right: 20%; */
+    color: white;
+    border: black solid 1px;
+    background-color: teal;
+    padding: 3px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+/* #nav-title {
+    color: white;
+    padding-right: 20px;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-links > li{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+} */
+
+/* .active{
+    color:white;
+}
+
+.button {
+    color: white;
+    border: black solid 1px;
+    background-color: teal;
+    padding: 3px;
+    font-weight: bold;
+} */
+
+#page-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 5%;
+   /*  background-color: blue; */
+}
+
+.col-1 {
+    flex: 2;
+}
+
+.col-2 {
+    flex: 1;
+}
+
+#usercard {
+    height: 500px;
+    background-color: white;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    border: 3px solid lightgray;
+   /*  display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+}
+
+#card-header{
+    height: 150px;
+    background-color: rgb(52, 146, 158);
+}
+
+#user-pic{
+    position: relative;
+    bottom: 60px;
+    left: 30px;
+    border-radius: 50%;
+    height: 120px;
+}
+
+#john-doe{
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+}
+
+#map {
+    position: relative;
+    bottom: 45px;
+    left: 30px;
+    height: 25px;
+}
+
+#chicago{
+    position: relative;
+    bottom: 70px;
+    left: 50px
+}
+
+.description{
+    position: relative;
+    bottom: 60px;
+    left: 30px;
+}
+
+#gear-icon {
+    height: 20px;
+}
+
+.gear {
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+}
+
+#education {
+    height: 250px;
+    margin-right: 2%;
+    border: 3px solid lightgray;
+}
+
+#education-header {
+    height: 60px;
+    background-color: darkslategrey;
+    color:white;
+    font-size: larger;
+}
+
+#education-title {
+    position: relative;
+    top: 20px;
+    left: 5%;
+}
+
+.education-content{
+    position: relative;
+    top: 4%;
+    left: 4%;
+}
+
+#connections {
+    height: 250px;
+    margin-bottom: 4%;
+    border: 3px solid lightgray;
+}
+
+#connections-header {
+    height: 70px;
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+}
+
+#tworeqs{
+    border-radius: 50%;
+    background-color: gray;
+    color: black;
+    width: 10%;
+    height: 35%;
+    text-align: center;
+}
+
+#connections-content{
+    display: block;
+    
+}
+
+.connections-row{
+    display: flex;
+    height: 90px;
+}
+
+.conn-name{
+    height: 90px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5%;
+}
+
+.conn-accept{
+    height: 90px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.avatar-pic{
+    height: 30%;
+    position: relative;
+    left: 5%;
+}
+
+.acc-btn{
+    color: white;
+    background-color: gray;
+    font-size: larger;
+    border-radius: 50%;
+    width: 30%;
+    height: 40px;
+}
+
+#your{
+    height: 500px;
+    border: 3px solid lightgray;
+}
+
+#your-header{
+    height: 120px;
+    background-color: darkslategray;
+    border: 1px solid gray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
+}
+
+#fivehundred{
+    border-radius: 50%;
+    font-size: larger;
+    background-color: gray;
+    color: black;
+    width: 25%;
+    height:28%;
+    text-align: center;
+}
+
+#your-content{
+    height:320px;
+    display: block;
+    align-content: center;
+}
+
+.avatar-pic2 {
+    height:40%;
+    position: relative;
+    /* left: 5%; */
+}
+
+#your-con{
+    height:80px;
+}
+
+/* .friend-name{
+    position: relative;
+    left: -40%;
+    
+} */
+
+.your-footer{
+    height:60px;
+}
